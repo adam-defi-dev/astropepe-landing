@@ -1,0 +1,127 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+
+
+@media (min-width: 1200px) {
+	
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 992px) {
+		
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+	.tabsection--header {
+        margin-top: 32px;
+    }
+
+    .carousel-widget .item h1 {
+        font-size: 40px !important;
+    }
+
+    .title {
+        font-size: 40px !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+
+}
+
+.nc-clock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nc-clock a {
+    background-color: #04771980;
+    border: none;
+    color: #fff;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    min-width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nc-clock a img {
+    margin-right: 16px;
+    width: 20px;
+}
+
+.nc-sociallink {
+    position: fixed;
+    bottom: 6px;
+    left: calc(50% - 62px);
+}
+
+.carousel-widget .item h1 {
+    font-family: "Pixeloid";
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.about-sub {
+    font-family: "Pixeloid";
+    font-size: 1.5rem;
+}
+
+.tokenomics {
+    justify-content: center;
+}
+
+.tokenomics .tokenomics-item {
+    margin: 8px 8px;
+}
+
+.tokenomics-item .info {
+    text-align: center;
+}
+
+#roadmap .slider-section .item {
+    background-color: #00000080;
+    padding: 16px;
+    margin: 0 8px;
+}
+
+#roadmap .slider-section .item h3 {
+    color: white;
+    margin-bottom: 24px;
+    font-family: "Pixeloid";
+}
+
+#roadmap .slider-section .center .item {
+    background-color: #16290d
+
+}
